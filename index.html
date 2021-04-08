@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tic Tac Toe</title>
+  <style>
+    body {
+      width: 100%;
+    }
+
+    #app {
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+    }
+
+    tr {
+      width: 150px;
+      height: 50px;
+    }
+
+    td {
+      width: 50px;
+      height: 50px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <table id="board">
+    </table>
+    <div id="game-data">
+      <p>Wins<br>x: <span id="x-wins"></span><br>o: <span id="o-wins"></span></p>
+      <p>Current turn: <span id="current-turn"></span></p>
+      <button id="reset-btn">Reset Board</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
